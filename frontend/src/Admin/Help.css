@@ -1,0 +1,56 @@
+.help-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .help-intro {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .help-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-section h2 {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .help-section p {
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .help-back-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .help-back-btn:hover {
+    background: #0056b3;
+  }
+  

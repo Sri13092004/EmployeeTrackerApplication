@@ -1,0 +1,85 @@
+/* Centering the entire container */
+.admin-employee-container {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+  }
+  
+  /* Main list container */
+  .admin-employee-list {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  /* Title */
+  .admin-employee-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  /* Employee Table */
+  .admin-employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-employee-table th, 
+  .admin-employee-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .admin-employee-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+  
+  /* View Button */
+  .admin-view-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .admin-view-btn:hover {
+    background: #333;
+    transform: scale(1.05);
+  }
+  
+  /* Export Buttons */
+  .admin-export-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .admin-export-btn {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .admin-export-btn:hover {
+    background: #333;
+    transform: scale(1.05);
+  }
+  

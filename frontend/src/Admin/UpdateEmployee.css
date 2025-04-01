@@ -1,0 +1,85 @@
+.update-employee-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.update-employee-card {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.update-employee-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.update-employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.update-employee-form input,
+.update-employee-form select {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.update-employee-form select {
+  appearance: none;
+  background: white;
+}
+
+.update-employee-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.update-employee-save, .update-employee-cancel {
+  padding: 14px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.update-employee-save:hover, .update-employee-cancel:hover {
+  opacity: 0.8;
+}
+
+.image-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.image-preview {
+  width: 80px;  /* Reduced size */
+  height: 80px; /* Reduced size */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+  margin-bottom: 10px;
+  opacity: 0.9; /* Slight transparency to differentiate */
+  transition: transform 0.2s ease-in-out;
+}
+
+.image-preview:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
